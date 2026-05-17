@@ -1,6 +1,5 @@
 [theme]
-primaryColor = "#f9a825"
-backgroundColor = "#0b120c"
-secondaryBackgroundColor = "#111c13"
-textColor = "#e8f5e9"
+# We remove hardcoded background/text colors to let our custom CSS variables handle them
+# This allows for seamless Light/Dark mode transitions via CSS :root definitions
 font = "sans serif"
+primaryColor = "#1b5e20"
